@@ -1,4 +1,6 @@
 body {
+    width: 80%;
+    margin: auto;
     background-image: url(escada_3d.png);
     background-repeat: no-repeat;
     background-position: center;
