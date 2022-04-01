@@ -13,16 +13,16 @@ h1 {
 }
 
 .botton_music {
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #5E7368;
     color: white;
     padding: 10px 25px;
     cursor: pointer;
-    display: -moz-stack;
+    display: inline-block;
     text-decoration: none;
     border-radius: 15px;
 }
