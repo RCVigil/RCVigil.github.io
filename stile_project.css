@@ -1,0 +1,40 @@
+body {
+    background-image: url(escada_3d.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+    font-family: font-family: 'Kanit', sans-serif;
+}
+
+
+h1 {
+    color: #3C7357;
+}
+
+.botton_music {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #5E7368;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    display: -moz-stack;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.trybe_link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #3B6C52;
+    text-decoration: none;
+}
+
+#foto_rosto {
+    border-radius: 100%;
+}
