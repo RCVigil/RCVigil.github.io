@@ -15,7 +15,7 @@ h1 {
 .botton_music {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #5E7368;
@@ -24,7 +24,7 @@ h1 {
     cursor: pointer;
     display: -moz-stack;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .trybe_link {
