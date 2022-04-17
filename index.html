@@ -10,17 +10,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stile_project.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Paprika&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Rodrigo Cuervo Vigil</h1>
-    <ol>
-        <a href="#habil_prim"><li>Principal Habilidade</li></a>
+    <header class="headerN">
+        <h1>Rodrigo Cuervo Vigil</h1>
+    </header>
+    <ol class="dest-habil">
+        <a href="#habil_prim"><li>Principal Habilidade: </li></a>
     </ol>
     <img id="foto_rosto" src="rodrigo.jpeg" alt="Foto do Rodrigo alegre indo para TRYBE" width="150px"> 
 
     <h3>Sou Rodrigo, nascido em 02 de abril, sou natural de Taubaté, interior de SP, Brasil. 
     <br>
     <em>Iniciei minha nova jornada na</em> <a class="trybe_link" href="https://www.betrybe.com/?utm_source=trybe.com.br" target="_blank">TRYBE</a> <em>no mês de Março de 2022.</em></h3>
+    <div class="list">    
+        <ol id="projects" class="list">
+            <li>
+                <span class="icon-span"><ion-icon name="logo-html5"></ion-icon></span>
+                <ion-icon name="logo-css3"></ion-icon>
+                <a href="https://github.com/tryber/sd-022-b-project-lessons-learned/pull/85" target="_blank"> Meu <strong>primeiro</strong> projeto. <strong><em>Lesson Learned.</em></strong></a>
+            </li>
+
+            <div class="line">
+                <br>
+            </div>
+
+            <li><a href="https://github.com/tryber/sd-022-b-project-playground-functions/pull/78" target="_blank">Meu <strong>segundo</strong> projeto. <em><strong>Playground Functions.</strong></em></a></li>
+        </ol>
+    </div>
 
     <ul>
         <li id="habil_prim" ><strong>Honestidade</strong></li>
@@ -33,7 +57,7 @@
     <br> <br>
     <a class="botton_music" href="#foto_rosto">FOTO ROSTO</a>
     <br> <br> <br>
-    <a class="botton_music" href="https://www.youtube.com/watch?v=SYVCtcbRLhw" target="_blank">Uma das minhas músicas preferidas</a>
-
+    <a class="botton_music" href="https://www.youtube.com/watch?v=61tR63iU2Ww" target="_blank">Uma das minhas músicas preferidas</a>
+    <script src="dynamic.js"></script>;
 </body>
 </html>

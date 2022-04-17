@@ -1,42 +1,123 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    width: 80%;
-    margin: auto;
-    background-image: url(escada_3d.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-position-x: center;
-    font-family: 'Kanit', sans-serif;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+  background-color: rgba(222, 184, 135, 0.267);
+  background-image: url(escada_3d.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-x: center;
+  font-family: "Kanit", sans-serif;
 }
 
+.headerN {
+  /*border: 3px solid red;*/
+  position: auto;
+  text-align: center;
+  border-radius: 70%;
+  margin: 0;
+  width: 100%;
+  font-size: 25px;
+  font-family: monospace, Georgia, "Times New Roman", Times, serif;
+  transform-style: preserve-3d;
+  background: linear-gradient(#1515152a, #3b4ce436);
+  filter: drop-shadow(10px 10px 3px rgba(2, 0, 128, 0.356));
+  box-shadow: 0 0 10px #3b6c52;
+}
 
 h1 {
-    color: #3C7357;
+  color: #3b4be4;
 }
 
 .botton_music {
-    box-sizing: content-box;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    background-color: #5E7368;
-    color: white;
-    padding: 10px 25px;
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 15px;
+  box-sizing: content-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #5e7368;
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 15px;
 }
 
 .trybe_link {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: 900;
-    color: #3B6C52;
-    text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #3b6c52;
+  text-decoration: none;
 }
 
 #foto_rosto {
-    border-radius: 100%;
+  border-radius: 100%;
+}
+
+.dest-habil {
+  position: absolute;
+  position: right;
+  margin-left: 300px;
+  height: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #5e73689c;
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+#projects {
+  margin: 50px 50px 50px 50px;
+  max-width: 80%;
+  min-height: auto;
+  max-height: 50%;
+  background: white;
+  border-radius: 50px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Paprika", cursive;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+}
+
+.list ol li {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  list-style: upper-roman;
+  border-left-width: initial;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+}
+.list ol li a {
+  max-width: 80%;
+  position: relative;
+  background-position: 1000px;
+  justify-content: left;
+  width: 100%;
+  text-align: left;
+  font-weight: 700;
+}
+
+.line {
+  break-inside: auto;
+  height: 0;
 }
